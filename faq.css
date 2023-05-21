@@ -1,0 +1,98 @@
+
+#faq .li{
+    margin-bottom: 30px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ 
+ #faq .black{
+     background-color: black;
+ }
+
+ #faq .mt-5{
+     margin-top: 20px;
+     font-weight: lighter;
+ }
+
+ #faq .mb-5{
+    margin-bottom: 30px;
+ }
+
+ #faq .feedback{
+     text-align: center;
+     margin-top: 50px;
+ }
+ #faq .feedback P{
+    display: inline-block;
+ }
+ #faq .like-div{
+     width: 100px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 500px;
+     font-size: 20px;
+     margin-top: 30px;
+ }
+
+ #faq .modal{
+     margin-top: 150px;
+ }
+
+#faq .modal-header, .modal-footer{
+   border: none;
+}
+
+.close:hover{
+   color: rgb(130, 9, 9);
+}
+
+.question-box{
+   width: 400px;
+   height: 50px;
+   margin-bottom: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.words{
+     width: 50%;
+     height: 70vh;
+}
+
+.bg-danger{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(130, 9, 9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.info-div{
+     background: rgb(247, 247, 247);
+     width: 80%;
+     height: 50px;
+     margin-left: 50px;
+     margin-bottom: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 15px;
+}
+
+.info-div:hover{
+      background-color: gainsboro;
+}
+
+.info-div span{
+    margin-right: 20px;
+}
+
+
+

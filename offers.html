@@ -1,0 +1,43 @@
+<section id="offersSec">
+    <div id="headerProducts">
+        <h3 id="txt1">Our Offers</h3>
+        </div>
+    <div id="productsCon" >
+  
+        <div class="products" ng-repeat="product in getProducts() | limitTo: 12">
+        
+                <div  title="{{product.description}}" id="pImg" ng-style="{'background-image': 'url({{product.image}})'}">
+                    <div id="discount">20% off</div>
+                <span  onclick="like(event)" class="bi-heart outline"
+                    ></span>
+        
+                        </div>
+                        <div class="name_desc">
+                            <h6 id=brand>{{product.brand}}</h6>
+                            <p class="desc"><a href="#">{{product.description}}</a></p>
+                        </div>
+                        <div id="buy_price">
+                            <span id="rating" ng-bind-html="product.rating | unsafe"  style="font-size: 18px; color:black;"></span>
+                            <h4 id="price">{{'Now £' + product.price}}</h4>
+                            <button id="buy">Add to cart</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+                  <script>
+                    function like(e){
+                    if (e.target.classList.contains("bi-heart")) {
+                        e.target.classList.replace("bi-heart", "bi-heart-fill");
+                        e.target.style.color = "red";
+                    } else {
+                        e.target.classList.replace("bi-heart-fill", "bi-heart");
+                        e.target.style.color = "black";
+                    }
+                    }
+        
+                    </script>
+        
+</section>

@@ -1,0 +1,128 @@
+<div id="container" ng-app="chic" ng-controller="chicController">
+<div id="imgs" class="animate__animated animate__fadeOut">
+</div>
+<div id="headerMain">
+  <span id="hamburger" >&#x2630;</span>
+    <div id="logosec">
+        <div id="logo"></div><h4 id="compname">
+        Chic Lighting 
+    </h4> <span id="counter">{{'Visits: ' + count}}</span>
+  </div>
+    <div id="horNavCon" class="animate__animated animate__fadeInDown">
+    <ul id="horNav" >
+         <li class="nav-link" id="siteMap"> <a href="#!/sitemap">Site map</a> </li>
+        <li class="nav-link" id="gallery"> <a href="#!/gallery">Gallery</a> </li>
+        <li class="nav-link" id="about"> <a href="#!/About us">About us</a></li>
+        <li class="nav-link" id="faq"><a href="#!/faq">FAQ</a></li>
+        <li class="nav-link" id="contact"><a href="#!/contact">Contact us</a></li>
+    </ul>
+</div>
+<div id="leftNav" class="animate__animated animate__fadeInDown">
+    <div id="products">
+      <ul>
+      <li><a href="#!/products">Products</a></li>
+   <li> <a href="#!/offers"> Offers</a> </li>
+</ul>
+</div>
+</div>
+</div> 
+
+<div id="body">
+    <div id="desc" class="animate__animated animate__zoomIn">
+       <h1>Chic Lighting & Design</h1> 
+    <p> From crystal chandeliers to industrial and retro pendant lights, 
+        we have something for everyone. Let us light up your home and make it 
+        shine with our beautiful and unique lighting options!</p>
+
+</div>
+
+
+</div>
+</div>
+<div id="ticker">
+  <p id="ticker-content">{{"Current time: " + time + " | Current date: " + date + " | Current location: " + res.locality + ", " + res.countryName + ", " + res.continent}}</p>   
+  <span class="cancelBtn" ng-click="cancelButtonClick($event)">&#128473;</span>
+
+</div>
+
+</div>
+<script>
+
+
+document.addEventListener('DOMContentLoaded', function() {
+// 
+// function to download pdf and doc files
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+// setting the click function for the top navbar
+const nav = document.querySelectorAll('a');
+nav.forEach(a => {
+a.addEventListener('click', ()  => {
+// Add or remove the clicked class to toggle the  color
+a.classList.toggle('clicked');
+
+// Reset text color on all other a elements
+for (let i = 0; i < nav.length; i++) {
+if(nav[i] !== a) {
+nav[i].style.color = 'white'; 
+nav[i].style.borderBottom = "none"
+}
+}
+
+// Add border and text color to the clicked a element
+a.style.color = '#685A3E';
+a.style.borderBottom = "1.5px solid  #B08D57"
+})
+})
+
+});
+
+
+
+// geolocation
+function getLocation() {
+if(navigator.geolocation) {
+navigator.geolocation.getCurrentPosition((pos, showError) => {
+getPlace(pos)
+})
+} else{
+alert("This browser does not support geolocation.")
+}
+}
+function showError(error) {
+switch (error.code) {
+case error.PERMISSION_DENIED:
+alert("User denied the request for Geolocation.")
+break;
+
+}
+}
+
+
+
+getLocation(); // start getting location and weather data
+async function getPlace(pos){
+
+const req= await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${pos.coords.latitude}&longitude=${pos.coords.longitude}&localityLanguage=en`)
+const res = await req.json()
+console.log(res);
+function updateTicker() {
+var now = new Date();
+var date = now.toDateString();
+var time = now.toLocaleTimeString();
+
+var ticker = document.getElementById("ticker");
+var tickerContent = document.getElementById("ticker-content")
+tickerContent.innerText = "Current time: " + time + " | Current date: " + date + " | Current location: " + res.locality + ", " + res.countryName + ", " + res.continent;
+}     
+setInterval(updateTicker, 1000);
+}
+
+});
+
+
+</script>

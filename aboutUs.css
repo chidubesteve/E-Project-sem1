@@ -1,0 +1,81 @@
+
+/* About us css */
+
+section{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+   flex-direction: row-reverse;
+ /* overflow: hidden; */
+}
+#imgCirclesCon{
+  width: 40%;
+  height: 600px;
+  float: left;
+padding-left: 200px;
+}
+#imgCircles1{
+  width: 200px;
+  height: 200px;
+  background-image: url(https://lw-cdn.com/images/BA346EAA3B93/k_9bc01b70f389a8a49fc264d08762c073;w_472;h_472;q_70/lindby-dotani-floor-lamp-globe-black.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: translateZ(-250px)  translate(-50px, 130px);
+}
+#imgCircles2{
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/light4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: translateZ(-150px)  translateX(-60px) translateY(130px);
+
+
+}
+#imgCircles3{
+  width: 200px;
+  height: 200px;
+  background-image: url(https://lw-cdn.com/images/C607033359FE/k_a36088c5ccdf7340ba60e3fb1b5f4d8e;w_472;h_472;q_70/aiden-wall-light-led-reading-light-white-brass.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: translateZ(-200px)   translate(50%, -80%);
+
+}
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('./fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+#head{
+  width: 170px;
+  float: right;
+  margin: 40px 350px;
+  padding: 5px 10px;
+  border-bottom: 2px solid black;
+}
+#head h2{
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+#aboutUsCon{   
+   display: flex;
+  flex-direction: column;
+   width: 50%;
+   height: auto;
+   margin-left: 20px;
+   float: right;
+   align-items: center;
+   text-align: center;
+   margin-right: 100px;
+}
+#details{
+  text-align: center;
+}

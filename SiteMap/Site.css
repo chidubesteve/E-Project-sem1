@@ -1,0 +1,147 @@
+/* Set padding and margin to 0 for all elements, and set box-sizing property to border-box to include padding and border in the element's total width and height */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  /* Set font family and remove text decoration for body */
+  body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  background-color: black;
+}
+.sitemap-container{
+  display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+}
+  .navCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    width: fit-content;
+  }
+  h3{
+    color: white;
+  }
+  /* Set additional padding for the secondary header */
+  .sec-header{
+  color: white;
+  list-style-type: none;
+  }
+  
+  /* Set styling for the sub-header and make it an inline block element */
+  .sub-head {
+  display: inline-block;
+  list-style: none;
+  }
+  
+  /* Set styling for the sub-section and make it an inline block element */
+  .sub{
+  display: flex;
+
+  list-style: none;
+  padding: 10px;
+  }
+  
+  /* Set margin for the first child of the sub-header */
+  .sub-head:first-child {
+  margin-right: 50px;
+  }
+  
+  /* Set margin for the first child of the sub-section */
+  .sub:first-child{
+  margin-right: 50px;
+  }
+  
+  /* Set padding for h3 elements */
+  h3 {
+  padding-top: 8px;
+  }
+  
+  /* Set font size for the h1 element inside the sub-header */
+  .sub-head h1 {
+  font-size: 15px;
+  }
+  
+  /* Set font size for the h1 element inside the sub-section */
+  .sub h1{
+  font-size: 15px;
+  }
+  
+  /* Set styling for the ul element inside the sub-header */
+  .sub-head ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  }
+  
+  /* Set styling for the ul element inside the sub-section */
+  .sub ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  /* Set padding for the li element inside the ul element in the sub-header */
+  .sub-head li {
+  padding: 10px ;
+  }
+  
+  /* Set padding for the li element inside the ul element in the sub-section */
+  .sub ul li {
+  padding: 5px 0;
+  }
+  
+  /* Set styling for the navigation bar */
+  nav {
+  background: black;
+  width: 120px;
+  height: 70px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  }
+  
+  /* Set text decoration and color for links inside the sub-header */
+  .sub-head a {
+  text-decoration: none;
+  color: white;
+  }
+  .productcon{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+  /* Set text decoration and color for links inside the sub-section */
+  .sub a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  /* Set hover effects for links inside the sub-header */
+  .sub-head a:hover {
+  text-decoration: underline;
+  color: white;
+  }
+  
+  /* Set hover effects for links inside the sub-section */
+  .sub a:hover {
+  text-decoration: underline;
+  color: white;
+  }
+  
+  /* Set left margin for ul elements inside ul elements in the sub-header */
+  .sub-head ul ul {
+  margin-left: 20px;
+  }
+  
+  /* Set left margin for ul elements inside ul elements in the sub-section */
+  .sub ul ul {
+  margin-left: 20px;
+  }

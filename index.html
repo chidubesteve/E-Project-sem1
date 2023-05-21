@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="chic" ng-controller="chicController" ng-cloak>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Lighting</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon.ico">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open Sans|Montserrat|Cormorant Garamond">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.15.1/docxtemplater.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular-route.js"></script>  
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- <link rel="stylesheet" href="{{myStyle}}"> -->
+    <link rel="stylesheet" href="./aboutUs.css">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./products.css">
+
+</head>
+<body class="responsive" >
+  <div id="container">
+<ng-view></ng-view>
+     
+
+
+ 
+</div>
+
+<script>
+  
+function generatePDF() {
+const pdf = new jsPDF();
+const text = document.getElementById("details").textContent;
+const textLines = pdf.splitTextToSize(text, pdf.internal.pageSize.getWidth() - 20); 
+pdf.text(textLines, 10, 10);
+pdf.save("About Us.pdf");
+}
+
+function generateDOC() {
+const data = document.getElementById("details").textContent;
+const blob = new Blob([data], {type: "text/plain;charset=utf-8"});
+saveAs(blob, "details.doc");
+}
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>

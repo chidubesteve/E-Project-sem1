@@ -1,0 +1,91 @@
+<head>
+    <link rel="stylesheet" href="products.css">
+
+</head>
+<section>
+    <div  class="container" ng-app="chic" ng-controller="productsCtrl" ng-cloak>
+        <div id="headerProducts">
+            <h3 id="txt1">Our products</h3>
+                <div id="brands">Brands</div>
+                <div id="brandDropdown">
+                    <ul>
+                        <li ng-click="filterBrands(brand)"  ng-repeat="brand in brands">{{brand}}</li>
+                    </ul>
+                </div>
+                <div id="pricebtn">Price</div>
+                <div id="priceDropdown">
+                    <ul>
+                        <li ng-click="getItem('range1')">£0 - 400</li>
+                        <li ng-click="getItem('range2')">£401 - 800</li>
+                        <li ng-click="getItem('range3')">£801 - 1,200</li>
+                        <li ng-click="getItem('range4')">£1,201 - 1,600</li>
+                        <li ng-click="getItem('range5')">£1,601 - 2,000</li>
+                    </ul>
+                </div>
+
+                <div id="clear" ng-click="clearFilters()">Clear All</div>
+            <div id="filter"><i class="bi-filter-square"></i>Filter by</div>
+        </div>
+        <div id="leftSec">
+       
+              <div id="vertlist">
+                <!-- add ng-click to call the filter function when the link is clicked -->
+                <div id="vertlist">
+                    <!-- add ng-click to call the filter function when the link is clicked -->
+                    <li id="ceilingLights" ng-click="getItem('chandelier')" >Ceiling lights</li>
+                    <li id="wallLights"  ng-click="getItem('wall')">Wall lights</li>
+                    <li id="outdoor" ng-click="getItem('outdoor')">Outdoor lights</li>
+                    <li id="fans" ng-click="getItem('fan')">Fans</li>
+                    <li id="lamps" ng-click="getItem('lamp')">lamps</li>
+                    <li  id ="HomeAccents" ng-click="getItem('home accents')">Home Accents</li>
+                  </div>
+              </div> 
+              <hr>
+              <h4 id="ledlights1" ng-click="getItem('LED')">LED lights</h4>
+                <div id="vertlist2">
+                    <li ng-click="getItem('spotlight')">Spot lights </li>
+                    <li ng-click="getItem('decorative')">decoration lights</li>
+                         <li ng-click="getItem('smart')">Smart lights</li>
+                </div>
+        </div>
+
+
+        <div id="productsCon" >
+    
+  
+<div class="products" ng-repeat="product in getProducts() ">
+
+        <div  title="{{product.description}}" id="pImg" ng-style="{'background-image': 'url({{product.image}})'}">
+        <span    
+        ng-click="like($event)" class="bi-heart outline"
+            ></span>
+
+                </div>
+                <div class="name_desc">
+                    <h6 id=brand>{{product.brand}}</h6>
+                    <p class="desc"><a href="#">{{product.description}}</a></p>
+                </div>
+                <div id="buy_price">
+                    <span id="rating" ng-bind-html="product.rating | unsafe"  style="font-size: 18px; color:black;"></span>
+                    <h4 id="price">{{'Now £' + product.price}}</h4>
+                    <button id="buy">Add to cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+          <!-- <script>
+            function like(e){
+            if (e.target.classList.contains("bi-heart")) {
+                e.target.classList.replace("bi-heart", "bi-heart-fill");
+                e.target.style.color = "red";
+            } else {
+                e.target.classList.replace("bi-heart-fill", "bi-heart");
+                e.target.style.color = "black";
+            }
+            }
+
+            </script> -->
+</section>

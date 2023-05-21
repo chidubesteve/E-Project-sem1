@@ -1,0 +1,576 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Open Sans', 'Roboto','Montserrat';
+
+}
+#container{
+  height: 100vh; 
+background-color:rgba(31, 33, 35, 1) ;
+      transition: background 0.5s ease;
+        width: 100%;
+        z-index: 1;
+        overflow-y: auto;
+}
+ .container{
+  padding-top: 2.5rem;
+  background: #fff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#container::-webkit-scrollbar {
+width: 10px;
+}
+
+#container::-webkit-scrollbar-track {
+background-color:  white;
+border-radius: 10px;
+}
+
+#container::-webkit-scrollbar-thumb {
+background-color: #D9D9D9;
+border-radius: 10px;
+}
+
+#headerMain{
+  height: 10vh;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+}
+#logosec{
+  height: 60px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin: 25px 25px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#logo{
+  height: 40px;
+  width: 40px;
+  background-image: url(/images/logoforchic.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+#compname{
+  color: white;
+}
+#counter{
+color: white;
+font-size: 13px;
+margin-left: 10px;
+font-weight: bold;
+}
+#horNavCon{
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#horNav{
+  list-style-type: none;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#horNav  li a{
+  color: white;
+  text-decoration: none;
+}
+#horNav  li a:hover{
+  color:  #B08D57;
+  cursor: pointer;
+}
+
+#leftNav{
+  width: 160px;
+  height: 30px;
+  display: flex;
+  margin-right: 25px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+#leftNav a{
+color: white;
+text-decoration: none;
+text-align: center;
+}
+#products p{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#leftNav a:hover{
+color:  #B08D57;
+  cursor: pointer;
+}
+
+#products ul {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 160px;
+align-items: center;
+text-align: center;
+list-style-type: none;
+}
+
+.nav-link:hover {
+text-decoration: none; /* remove the default underline */
+position: relative; /* set the parent element to relative */
+padding-bottom: 2px; /* add some padding to create the underline */
+}
+
+.nav-link:hover::after {
+content: ""; /* add a pseudo-element */
+position: absolute; /* set it to absolute */
+left: 0; /* align it to the left of the parent element */
+bottom: 0; /* align it to the bottom of the parent element */
+width: 100%; /* make it stretch the whole width of the parent element */
+border-bottom: 1.5px solid  #B08D57; /* add the underline */
+border-radius: 1.5px;
+animation-name: slideInRightHover;
+animation-duration: 1s;
+animation-fill-mode: forwards; /* make the animation stay at its final state */
+}
+
+
+@keyframes slideInRightHover {
+  from {
+    transform: translateX(-30%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('./fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+
+#body{
+  width: 700px;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  top: 150px;
+  position: absolute;
+}
+#desc{
+  width: auto;
+  height: 200px;
+  z-index: 1;
+}
+#desc h1{
+  font-family: 'Great Vibes', sans-serif;
+color:  #B08D57;
+font-size: 50px;
+text-align: center;
+z-index: 1;
+
+}
+#desc p{
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+#imgs {
+  height: 100%;
+  width: 45%;
+  float: right;
+  box-shadow: inset 60px -60px 50px rgba(31, 33, 35, 1);
+  transition: box-shadow 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url(/images/light3.jpg);
+
+}
+#ticker {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(28, 27, 27, 0.593);
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  z-index: 5;
+}
+#ticker-content {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  animation: ticker 20s linear infinite;
+}
+
+.cancelBtn{
+  width: 2%;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* About us css */
+
+section{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+   flex-direction: row-reverse;
+ /* overflow: hidden; */
+}
+#imgCirclesCon{
+  width: 40%;
+  height: 600px;
+  float: left;
+padding-left: 200px;
+}
+#imgCircles1{
+  width: 200px;
+  height: 200px;
+  background-image: url(https://lw-cdn.com/images/BA346EAA3B93/k_9bc01b70f389a8a49fc264d08762c073;w_472;h_472;q_70/lindby-dotani-floor-lamp-globe-black.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: translateZ(-250px)  translate(-50px, 130px);
+}
+#imgCircles2{
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/light4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: translateZ(-150px)  translateX(-60px) translateY(130px);
+
+
+}
+#imgCircles3{
+  width: 200px;
+  height: 200px;
+  background-image: url(https://lw-cdn.com/images/C607033359FE/k_a36088c5ccdf7340ba60e3fb1b5f4d8e;w_472;h_472;q_70/aiden-wall-light-led-reading-light-white-brass.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: translateZ(-200px)   translate(50%, -80%);
+
+}
+#hamburger{
+  display: none;
+}
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('./fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+#head{
+  width: 170px;
+  float: right;
+  margin: 40px 350px;
+  padding: 5px 10px;
+  border-bottom: 2px solid black;
+}
+#head h2{
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+#aboutUsCon{   
+   display: flex;
+  flex-direction: column;
+   width: 50%;
+   height: auto;
+   margin-left: 20px;
+   float: right;
+   align-items: center;
+   text-align: center;
+   margin-right: 100px;
+}
+#details{
+  text-align: center;
+}
+
+/* products css */
+
+#discount{
+  background-color: red;
+  width: 80px;
+  float: left;
+  padding: 1px 1px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+#offersSec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+/* Small devices (phones) */
+
+
+/* Medium devices (tablets) */
+@media (max-width: 775px)  {
+  #container{
+    width: 100%;
+   }
+  #body {
+   width: 50%;
+   height: 40vh;
+   left: 2em;
+  }
+  #desc h1{
+    font-size: 40px;
+  }
+  #desc p{
+    font-size: 15px;
+  }
+  #ticker {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    height: 40px;
+    background-color: rgba(28, 27, 27, 0.593);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  #compname{
+    font-size: 17px;
+  }
+  #ticker-content{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  #headerMain{
+    height: 8vh;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     }
+     #logo{
+      width: 30px;
+      height: 30px;
+     }
+   #logosec{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 25px 25px;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: inherit;
+   }
+   #horNavCon{
+    list-style-type: none;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   }
+   #horNav{
+    width: 300px;
+   }
+
+   #products ul{
+    width: 120px;
+   }
+}
+
+@media (max-width: 965px)  {
+  #container{
+    width: 100%;
+   }
+  #body {
+   width: 50%;
+   height: 40vh;
+   left: 2em;
+  }
+  #desc h1{
+    font-size: 40px;
+  }
+  #desc p{
+    font-size: 15px;
+  }
+  #ticker {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    height: 40px;
+    background-color: rgba(28, 27, 27, 0.593);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  #ticker-content{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  #headerMain{
+    height: 8vh;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     }
+     #logo{
+      width: 30px;
+      height: 30px;
+     }
+   #logosec{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 25px 25px;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: inherit;
+   }
+   #horNavCon{
+    list-style-type: none;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   }
+   #horNav{
+    width: 300px;
+   }
+
+   #products ul{
+    width: 120px;
+   }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 992px) {
+ #container{
+  width: 100%;
+ }
+  #body {
+    width: 50%;
+    height: 40vh;
+    left: 2em;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+   }
+   #container{
+    width: 100%;
+    height: 100vh;
+   }
+   #desc h1{
+     font-size: 40px;
+   }
+   #imgs{
+    width: 45%;
+   }
+   #headerMain{
+    height: 10vh;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     }
+   #logosec{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 25px 25px;
+    justify-content: center;
+    align-items: center;
+   }
+   #horNavCon{
+    list-style-type: none;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   }
+   #leftNav{
+       width: auto;
+   }
+
+}

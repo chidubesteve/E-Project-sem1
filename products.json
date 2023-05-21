@@ -1,0 +1,559 @@
+[
+    
+        {
+          "image": "https://www.lightingcompany.co.uk/images/onawa-3-light-semi-flush-ceiling-light-chrome-with-twisted-closed-glass-p31727-36422_thumb.jpg",
+          "brand": "ONAWA",
+          "description": "ONAWA 3 Light Semi Flush Ceiling Light Chrome with Twisted Closed Glass",
+          "price": "67.20",
+          "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+          "liked": false
+        },
+        {
+          "image": "https://www.lightingcompany.co.uk/images/onawa-5-light-semi-flush-ceiling-light-polished-chrome-with-smoked-glass-p31728-36425_thumb.jpg",
+          "brand": "ONAWA",
+          "description": "ONAWA 5 Light Semi Flush Ceiling Light Polished Chrome with Smoked Glass",
+          "price": "100.00",
+          "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+          "liked": false
+        },
+        {
+          "image": "https://lw-cdn.com/images/812196DC79E7/k_cf32cf7485093c7b7a81ec4833a8c6ad;w_472;h_472;q_70/vento-ceiling-light-black.webp",
+          "brand": "Euluna",
+          "description": " Extraordinary Vento ceiling light in black, fabulous lighting and accents",
+          "price": "129.90",
+          "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+          "liked": false
+        },
+        {
+          "image": "https://lw-cdn.com/images/A8013955CFCD/k_cabbda241f18668049d3a1557c65e2dc;w_472;h_472;q_70/lindby-joline-led-ceiling-lamp-chrome-46-cm.webp",
+          "brand": "Lindby",
+          "description": "Lindby Joline LED ceiling lamp, chrome, plastic, metal, 46 cm",
+          "price": "70.90",
+          "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+          "liked": false
+        },
+        {
+          "image": "https://lw-cdn.com/images/7AFE982F49CB/k_4b148ee1ca849b8b73765947a145d1de;w_472;h_472;q_70/decorative-ceiling-light-yos-leaf-design.webp",
+          "brand": "Lindby",
+          "description": "Decorative ceiling lamp light Yos, leaf design, classic interiors",
+          "price": "129.90",
+          "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+          "liked": false
+        },
+        {
+          "image": "https://www.lightingcompany.co.uk/images/valetta-polished-nickel-and-crystal-6-light-ceiling-pendant-p25138-26181_medium.jpg",
+          "brand": "Project",
+          "description": "Lighting VALETTA polished nickel and crystal 6 light ceiling pendant",
+          "price": "1,231.10",
+          "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;"
+        },     
+        {
+            "image": "https://www.lightingcompany.co.uk/images/neve-3-ring-chrome-and-crystal-led-ceiling-pendant-chandelier-p25146-60004_medium.jpg",
+            "brand": "Project",
+            "description": "Lighting NEVE 3 ring chrome and crystal LED ceiling pendant chandelier",
+            "price": "1,556.00",
+            "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+            "liked": false
+        },
+        {
+            "image": "https://lw-cdn.com/images/83F7FD789729/k_0b8e25afe1abb7ff2828916b0e51be0a;w_472;h_472;q_70/sparkling-led-ceiling-light-felias-round-shape.webp",
+            "brand": "Lucande",
+            "description": " Sparkling LED ceiling light Felias, round shape",
+            "price": "169.90",
+            "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+            "liked": false
+        },
+        {
+            "image": "https://lw-cdn.com/images/E6FAB3706721/k_50347801b77cbe416cbafd7227259ed4;w_472;h_472;q_70/ilira-led-ceiling-light-dimmable-cct-3-bulb.webp",
+            "brand": "Lucande",
+            "description": "Ilira LED ceiling light, dimmable, CCT, 3-bulb ",
+            "price": "119.90",
+            "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+            "liked": false
+        },
+        {
+            "image": "https://www.lightingcompany.co.uk/images/celeste-6-light-flush-ceiling-light-in-satin-brass-and-crystal-p35528-43452_medium.jpg",
+            "brand": "Bagno",
+            "description": "Bagno CELESTE 6 Light Flush Ceiling Light in Satin Brass and Crystal",
+            "price": "153.60",
+            "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+            "liked": false
+        },
+        {
+            "image": "https://www.lightingcompany.co.uk/images/vela-9-light-bathroom-chandelier-in-satin-brass-with-crystal-p35521-43439_medium.jpg",
+            "brand": "Bagno",
+            "description": "Bagno VELA 9 Light Bathroom Chandelier in Satin Brass with Crystal",
+            "price": "369.90",
+            "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+            "liked": false,
+            "showBuy": false
+        },
+        {
+            "image": "https://lw-cdn.com/images/75DE135DE933/k_46a29a77df9d8d4f8e5e8dafdf7f8c75;w_535;h_535;q_70/philips-hue-white-ambiance-being-ceiling-lamp-alu.webp",
+            "brand": "Philips Hue",
+            "description": "Including dimmer switch: Philips Hue LED ceiling lamp Being in modern design",
+            "price": "177.90",
+            "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+            "liked": false
+        },  
+  {
+    "image": "https://lw-cdn.com/images/B279A4395761/k_8d7ddfdcb0904beb453f7a7f19eea657;w_535;h_535;q_70/haniya-led-ceiling-light-dimmable.webp",
+    "brand": "Lindby",
+    "description": "Haniya dimmable ceiling LED light with a striking, curved appearance",
+    "price": "89.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+    "liked": false
+  },
+  {
+    "image": "https://lw-cdn.com/images/4D617287332F/k_cc8dd0f1f61f116d889367dd77dca46a;w_472;h_472;q_70/teresa-chandelier-with-crystals-8-bulb.webp",
+    "brand": "Euluna",
+    "description": "Teresa chandelier with crystals, 8-bulb",
+    "price": "219.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+    "liked": false
+  },
+  {
+    "image": "https://lw-cdn.com/images/461C98AFDFF9/k_caafd514824966dbeb2a3266aecba27e;w_472;h_472;q_70/lindby-fibi-hanging-light-antlers-brown.webp",
+    "brand": "Lindby",
+    "description": "Lindby Fibi hanging light, antlers, brown",
+    "price": "249.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+    "liked": false
+  },
+  {
+    "image": "https://lw-cdn.com/images/23597CE54D8C/k_235b3821d4c5182da4d55af258cc9b2c;w_472;h_472;q_70/bella-chandelier-with-lavish-hanging-elements.webp",
+    "brand": "Maytoni",
+    "description": "Bella crystal chandelier with lavish hanging elements",
+    "price": "559.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+    "liked": false
+  },
+  {
+        "image": "https://lw-cdn.com/images/669B4B60FF13/k_baff0314f1122615221a7fe2d0547c9b;w_535;h_535;q_70/almandite-chandelier-5-bulb-cream-gold.webp",
+        "brand": "Searchlight",
+        "description": "Almandite chandelier 5-bulb cream gold, in Florentine style",
+        "price": "259.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+        "liked": false    
+    },
+    {
+        "image": "https://lw-cdn.com/images/FB1C8EC78AD9/k_dc752180279abb659a34bad1b36a60d3;w_472;h_472;q_70/maytoni-fortano-chandelier-8-bulb-glass-lampshades.webp",
+        "brand": "Maytoni",
+        "description": "Maytoni Fortano chandelier 8-bulb glass lampshades",
+        "price": "409.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+        "liked": false
+    },
+    {
+        "image": "https://lw-cdn.com/images/563CAAEC6834/k_aee0142c6df18e15108dc40e4334e77e;w_535;h_535;q_70/basket-chandelier-ella-with-glass-crystal.webp",
+        "brand": "Clayre&Eef",
+        "description": "Magnificent gold Basket chandelier Ella with glass crystal",
+        "price": "899.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+        "liked": false
+    },
+    {
+        "image": "https://lw-cdn.com/images/C607033359FE/k_a36088c5ccdf7340ba60e3fb1b5f4d8e;w_472;h_472;q_70/aiden-wall-light-led-reading-light-white-brass.webp",
+        "brand": "Lindby",
+        "description": "Aiden wall light, LED reading light, white, brass",
+        "price": "119.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+        "liked": false
+    },
+    {
+        "image": "https://lw-cdn.com/images/FA12430318AA/k_e38e001ddd8dbc78a1f31d7ef5771cba;w_472;h_472;q_70/4-bulb-wall-light-cube-with-no-glare.webp",
+        "brand": "Casablanca",
+        "description": "4-bulb wall light CUBE with no-glare",
+        "price": "519.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+        "liked": false
+    },
+    {
+        "image": "https://lw-cdn.com/images/2ED58ABBF31E/k_05d683b4b6e3ab2e1372b7fcdda2e7d4;w_472;h_472;q_70/casablanca-ashiya-led-wall-uplighter.webp",
+        "brand": "Casablanca",
+        "description": "Casablanca Ashiya aluminium LED wall uplighter",
+        "price": "169.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+        "liked": false
+    },
+    {
+        "image": "https://lw-cdn.com/images/CADE495225AF/k_2d7fbcb84046029180ba74e33a421bc4;w_472;h_472;q_70/lindby-ulini-led-wall-light-up-and-down.webp",
+        "brand": "Lindby",
+        "description": "Lindby Ulini black  and gold LED wall light up and down",
+        "price": "59.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+        "liked": false    
+},
+{
+    "image": "https://lw-cdn.com/images/6B1EDA56A1DF/k_b884b0cadacd73032a02832d2b715ba1;w_472;h_472;q_70/black-golden-led-wall-light-zuzana-g9.webp",
+    "brand": "Arcchio",
+    "description": "Black-golden LED wall light Zuzana, G9",
+    "price": "24.90",
+    "rating": "&bigstar;&bigstar;&star;&star;&star;",
+    "liked": false
+    },
+    {
+    "image": "https://lw-cdn.com/images/88324C2B9259/k_5df4f35279b9306a7033addcde964303;w_472;h_472;q_70/arcchio-assona-wall-light-black-and-gold.webp",
+    "brand": "Arcchio",
+    "description": "Arcchio Assona wall light, black and gold",
+    "price": "39.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+    "liked": false
+    },
+    {
+    "image": "https://lw-cdn.com/images/667C00BF61F8/k_c5694ff7aa4bb67438cbf8b2ed3acda0;w_535;h_535;q_70/dimmable-led-wall-lamp-torin-with-flexible-arm.webp",
+    "brand": "Lucande",
+    "description": "Dimmable LED wall lamp Torin with flexible arm, reading lamp",
+    "price": "59.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+    "liked": false
+    },
+    {
+    "image": "https://lw-cdn.com/images/3B954DF9C51C/k_11b67d93cb84598cb8b71b0b7d79965b;w_535;h_535;q_70/led-wall-light-pilar-with-flex-arm-antique-brass.webp",
+    "brand": "ACB ILUMINACIÓN",
+    "description": "LED wall light PILAR with flex arm, antique brass",
+    "price": "99.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+    "liked": false
+    },
+    {
+    "image": "https://lw-cdn.com/images/A6C5DEDBCFFB/k_5e5cc469a5abbea78975e62e181f30a3;w_472;h_472;q_70/metal-wall-light-yos-adorned-with-leaves.webp",
+    "brand": "Lindby",
+    "description": "Metal wall light Yos adorned with leaves",
+    "price": "49.90",
+    "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+    "liked": false
+    },
+    {
+        "image": "https://lw-cdn.com/images/555676EBAF99/k_eadd6a7479c698208fd86792199660a3;w_472;h_472;q_70/billy-table-lamp-in-a-two-coloured-design.webp",
+        "brand": "Reality Leuchten",
+        "description": "Billy table lamp in a two-coloured design",
+        "price": "16.90",
+        "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+        "liked": false
+},
+
+{
+  "image": "https://lw-cdn.com/images/26A596FD8BAC/k_efa4fa0d89acd971d268a64e2fba9359;w_472;h_472;q_70/fatboy-edison-the-petit-led-table-lamp-wireless.webp",
+  "brand": "Fatboy",
+  "description": "Fatboy Edison the Petit LED table lamp wireless",
+  "price": "66.46",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/2BFF2CF4C5BB/k_e077b31db932fc35c3cb05ae9d100498;w_472;h_472;q_70/pauleen-glamour-led-table-lamp-battery-o-19-cm.webp",
+  "brand": "Pauleen",
+  "description": "Pauleen Glamour LED table lamp, battery Ø 19 cm",
+  "price": "26.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/AA9D5D996EE4/k_e66d26027b627ec6adee9f88da04c6d2;w_535;h_535;q_70/led-table-lamp-lennon-ip44-battery-dimmer-white.webp",
+  "brand": "Reality Leuchten",
+  "description": "LED table lamp Lennon IP44, battery, dimmer, white",
+  "price": "39.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/6E40A60A31E7/k_02e59b09c39c497249b304266547febb;w_472;h_472;q_70/philips-hue-flourish-led-table-lamp-rgbw.webp",
+  "brand": "Philips Hue",
+  "description": "Philips Hue Flourish LED table lamp, RGBW",
+  "price": "132.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/49698EB256D9/k_998367d7c68c94788fd4ec657ec2a75d;w_472;h_472;q_70/pauleen-glowing-midnight-table-lamp.webp",
+  "brand": "Pauleen",
+  "description": "Pauleen Glowing Midnight table lamp",
+  "price": "34.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/BBD1B9685005/k_e7a1bfa009a8d80ec81616ef80032ea6;w_472;h_472;q_70/attractive-nica-bedside-table-lamp-in-grey.webp",
+  "brand": "Lindby",
+  "description": "Attractive Nica bedside table lamp in grey",
+  "price": "39.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/5D9CA70BF8D1/k_883da9a670c72bf5d59ce40491dc92d0;w_472;h_472;q_70/pauleen-sweet-glamour-led-table-lamp-battery.webp",
+  "brand": "Pauleen",
+  "description": "Pauleen Sweet Glamour LED table lamp, battery",
+  "price": "19.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/854DBD41F0E1/k_37a0aba23e585d8123c4dbc79b916d31;w_535;h_535;q_70/little-tiger-children-s-table-lamp.webp",
+  "brand": "Dalber",
+  "description": "Little Tiger children`s table lamp",
+  "price": "34.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/EAA1C66DFEA0/k_b0b53e2d2cfb1d1980d6254f04684d39;w_472;h_472;q_70/milenka-bankers-lamp-polished-brass.webp",
+  "brand": "Lindby",
+  "description": "Milenka bankers lamp, polished brass",
+  "price": "89.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/9C4B95C50344/k_a2a8125004ec01a6f9486243bcf09d64;w_535;h_535;q_70/hvar-led-ceiling-fan-cct-dimmable.webp",
+  "brand": "FARO BARCELONA",
+  "description": "Hvar LED ceiling fan, CCT, dimmable",
+  "price": "339.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/69AAE4FBB28B/k_0c3a7109403a9879dfdd41bc2e9e345c;w_535;h_535;q_70/ceiling-fan-flora-royale-with-light.webp",
+  "brand": "Westinghouse",
+  "description": "Ceiling fan Flora Royale with light for small rooms",
+  "price": "119.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/DAEB5ECBC546/k_478602fafcfcd11b4ce959a7961068f4;w_472;h_472;q_70/vedra-ceiling-fan-gold-walnut.webp",
+  "brand": "FARO BARCELONA",
+  "description": "Vedra ceiling fan, gold/walnut, retro design",
+  "price": "349.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/0B64B7D851C5/k_2ad910fe6c9cde654ae36148c3e57d62;w_472;h_472;q_70/pedestal-fan-yukon-ii.webp",
+  "brand": "Westinghouse",
+  "description": "Westinghouse Pedestal fan Yukon II",
+  "price": "89.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/C389CA0B12CD/k_07b4d175af282d46a80830d8b7c7b823;w_535;h_535;q_70/falcetto-ceiling-fan-with-wood-aluminium.webp",
+  "brand": "CasaFan",
+  "description": "Falcetto ceiling fan with wood, aluminium",
+  "price": "339.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/4F7385D15273/k_9b71418d18e6ca89fe892d7f25bd08e6;w_472;h_472;q_70/starluna-arnick-led-ceiling-fan-black.webp",
+  "brand": "Lindby",
+  "description": "Starluna Arnick LED ceiling fan, black",
+  "price": "149.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/21B5919ED82D/k_fdadd1ef166fdc8e16649b67ba348175;w_472;h_472;q_70/westinghouse-barnett-ceiling-fan.webp",
+  "brand": "Westinghouse",
+  "description": "Westinghouse Barnett ceiling fan, wood",
+  "price": "239.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/86AB9E6DC172/k_34936c03affff4af8c90f89ff2e8376e;w_472;h_472;q_70/paulmann-urail-cone-gu10-spot-black-dimmable.webp",
+  "brand": "Paulmann",
+  "description": "Paulmann URail Cone GU10 spotlight black, dimmable",
+  "price": "44.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/F9F328193F89/k_daf8f3d71db1b9c442fc60032566f6fd;w_472;h_472;q_70/dora-2-bulb-halogen-ceiling-spotlight.webp",
+  "brand": "Trio Lighting",
+  "description": "Dora 2-bulb halogen ceiling spotlight",
+  "price": "29.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/F5AA3A3A48D8/k_975f13b1575179454e9ad16e25fc72ac;w_472;h_472;q_70/arcchio-brinja-spot-short-angular-black-4-bulb.webp",
+  "brand": "Arcchio",
+  "description": "Arcchio Brinja spotlight, short, angular black 4-bulb",
+  "price": "119.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/96148CD8BDE3/k_fc3140d5b2e1c1c8c994f9fc3e279b66;w_472;h_472;q_70/steinel-spot-one-sc-led-spotlight-gu10.webp",
+  "brand": "STEINEL",
+  "description": "STEINEL Spot One SC LED spotlight GU10",
+  "price": "79.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/E9280191324D/k_a785f23ab00a0ceb3747283a3fb8caec;w_472;h_472;q_70/ground-wiz-led-spot-starter-kit-double-pack.webp",
+  "brand": "Wiz",
+  "description": "Ground WiZ LED spot, starter kit, double pack",
+  "price": "169.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/FBBEB66A33F5/k_d335c3b72fb9dbd241a9ad5cc3864b6d;w_472;h_472;q_70/philips-hue-xamento-led-downlight-aluminium.webp",
+  "brand": "Philips Hue",
+  "description": "Philips Hue Xamento LED downlight, spotlight aluminium",
+  "price": "69.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/A7BD6A363EED/k_c7f610511e0542b84e4418d21b118767;w_472;h_472;q_70/lindby-quitana-ceiling-spotlight-four-bulb.webp",
+  "brand": "Lindby",
+  "description": "Lindby Quitana ceiling spotlight four-bulb",
+  "price": "44.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/719B7FACC53F/k_9ce0d9a7a1e8a970f3e835496d1ca234;w_472;h_472;q_70/ledvance-endura-style-midi-spot-ii-outdoor-spot.webp",
+  "brand": "LEDVANCE",
+  "description": "LEDVANCE Endura Style Midi Spot II outdoor spotlight",
+  "price": "97.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/27A5FA660DCA/k_b86161eba2ec6e7edd4964144b4b02e8;w_472;h_472;q_70/formentera-ceiling-fan-with-remote-control.webp",
+  "brand": "LEDS-C4",
+  "description": "FORMENTERA ceiling fan with remote control",
+  "price": "284.56",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/652A4EEFFF30/k_1490cee7a295077de1b8a086c84b2ded;w_472;h_472;q_70/decorative-pineapple-ceramic-table-lamp-silver.webp",
+  "brand": "Reality Leuchten",
+  "description": "Decorative Pineapple ceramic table lamp, silver",
+  "price": "29.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/D147B0AE0732/k_d2f04557ab8ec14a73b5d8c75fb5d950;w_472;h_472;q_70/decorative-pedas-led-solar-table-lamps-ten.webp",
+  "brand": "Lindby",
+  "description": "Decorative Pedas LED solar table lamps, ten",
+  "price": "37.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/29586344970C/k_2c51e0d7c0bc93f5a166d0e61b0f4ee5;w_472;h_472;q_70/lindby-jalte-solar-led-string-lights-10-bulb.webp",
+  "brand": "Lindby",
+  "description": "Lindby Jalte solar Decorative LED string lights, 10-bulb",
+  "price": "64.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/DBD7B12AA86E/k_c493fca2fdb794c7681d3c9d3b11e423;w_535;h_535;q_70/cactus-decorative-light.webp",
+  "brand": "Reality Leuchten",
+  "description": "Cactus decorative light with USB cable",
+  "price": "21.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/27A5FA660DCA/k_b86161eba2ec6e7edd4964144b4b02e8;w_472;h_472;q_70/formentera-ceiling-fan-with-remote-control.webp",
+  "brand": "Slamp",
+  "description": "Slamp Gemmy Prisma - designer table lamp, clear",
+  "price": "189.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/C1BF84790471/k_02b322cdcb583a6382e8d8ede496e3c6;w_535;h_535;q_70/elc-craig-led-floor-lamp-rgb-bulb-remote-control.webp",
+  "brand": "ELC",
+  "description": "ELC Craig decorative tubular LED floor lamp, RGB bulb, remote control, smart light",
+  "price": "47.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/AD345E94ED1D/k_1f90676e11696e89f096600190724993;w_472;h_472;q_70/umage-eos-mini-table-lamp-white-brass.webp",
+  "brand": "UMAGE",
+  "description": "UMAGE Eos mini Decorative smart table lamp white/brass",
+  "price": "193.45",
+  "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/3A2279721BC1/k_abb09f1c8c415efe7b719012888a116f;w_472;h_472;q_70/lindby-evanio-led-ceiling-lamp-smart-cct-rgb.webp",
+  "brand": "Lindby",
+  "description": "Lindby Evanio LED ceiling lamp, smart, CCT, RGB",
+  "price": "119.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/BA346EAA3B93/k_9bc01b70f389a8a49fc264d08762c073;w_472;h_472;q_70/lindby-dotani-floor-lamp-globe-black.webp",
+  "brand": "Lindby",
+  "description": "Lindby Dotani floor lamp, home accents, globe, black",
+  "price": "129.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/B673B8AB8BFB/k_e4f1d26684b785dd22a2548daa9da1cf;w_472;h_472;q_70/lindby-niobano-ceiling-light-black-steel.webp",
+  "brand": "Lindby",
+  "description": "Lindby Niobano ceiling light, black steel, home accents",
+  "price": "179.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/593ED053BEC1/k_f51d0325e142e2f76478d6f039d45cc9;w_535;h_535;q_70/darshan-floor-lamp-with-a-brown-leather-cover.webp",
+  "brand": "Masiero",
+  "description": "Darshan floor lamp with a brown leather cover, Home accents",
+  "price": "1,649.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&star;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/D10BAF19B35C/k_d6b869807b33fdd6e57c64022d7079f1;w_472;h_472;q_70/lucande-kemoni-floor-lamp-with-textile-lampshades.webp",
+  "brand": "Lucande",
+  "description": "Lucande Kemoni floor lamp with textile lampshades, home accents",
+  "price": "129.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/9225B6D05999/k_89f65f6182361aa15351d41a61ea9c5e;w_472;h_472;q_70/noemi-stainless-steel-path-lamp-for-outdoors.webp",
+  "brand": "Lindby",
+  "description": "Noemi stainless steel path lamp for outdoor",
+  "price": "37.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/E61041A1A4C1/k_a131d68cfcfb6c01f139946180be1ab7;w_472;h_472;q_70/steinel-l15-sensor-outdoor-wall-light.webp",
+  "brand": "STEINEL",
+  "description": "STEINEL L15 sensor outdoor wall light",
+  "price": "52.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/956773215B2B/k_20bf6ed33abf72c46df906c6640fa082;w_472;h_472;q_70/aluminium-led-pillar-light-annika-50-cm.webp",
+  "brand": "Lucande",
+  "description": "Aluminium LED pillar light Annika,outdoor light 50 cm",
+  "price": "99.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+},
+{
+  "image": "https://lw-cdn.com/images/09A8DC6B0B52/k_453f28d54e6885a1fc95fc4a727eee40;w_472;h_472;q_70/paulmann-led-solar-house-number.webp",
+  "brand": "Paulmann",
+  "description": "Paulmann LED solar outdoor house number",
+  "price": "54.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&star;&star;",
+  "liked": false
+},{
+  "image": "https://lw-cdn.com/images/AEA72313F6C0/k_7805b0a88f5c07d365927ee2a7cc4095;w_472;h_472;q_70/decorative-energy-saving-outdoor-wall-light-tame.webp",
+  "brand": "Lucande",
+  "description": "Decorative energy-saving outdoor wall light Tame",
+  "price": "69.90",
+  "rating": "&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;",
+  "liked": false
+}
+]

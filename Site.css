@@ -1,0 +1,242 @@
+/* Set padding and margin to 0 for all elements, and set box-sizing property to border-box to include padding and border in the element's total width and height */
+
+
+  /* Set font family and remove text decoration for body */
+
+.sitemap-container{
+  display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    justify-content: center;
+    margin: 0px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+  .navCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    width: fit-content;
+
+  }
+  h3{
+    color: white;
+    display: flex;
+   text-align: center;
+  }
+  /* Set additional padding for the secondary header */
+  .sec-header{
+  color: white;
+  list-style-type: none;
+  }
+  
+  /* Set styling for the sub-header and make it an inline block element */
+  .sub-head {
+  display: inline-block;
+  list-style: none;
+  }
+  
+  /* Set styling for the sub-section and make it an inline block element */
+  .sub{
+  display: flex;
+
+  list-style: none;
+  padding: 10px;
+  }
+  
+  /* Set margin for the first child of the sub-header */
+  .sub-head:first-child {
+  margin-right: 50px;
+  }
+  
+  /* Set margin for the first child of the sub-section */
+  .sub:first-child{
+  margin-right: 50px;
+  }
+  
+  /* Set padding for h3 elements */
+  h3 {
+  padding-top: 8px;
+  }
+  
+  /* Set font size for the h1 element inside the sub-header */
+  .sub-head h1 {
+  font-size: 15px;
+  }
+  
+  /* Set font size for the h1 element inside the sub-section */
+  .sub h1{
+  font-size: 15px;
+  }
+  
+  /* Set styling for the ul element inside the sub-header */
+  .sub-head ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  }
+  
+  /* Set styling for the ul element inside the sub-section */
+  .sub ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  /* Set padding for the li element inside the ul element in the sub-header */
+  .sub-head li {
+  padding: 10px ;
+  }
+  
+  /* Set padding for the li element inside the ul element in the sub-section */
+  .sub ul li {
+  padding: 5px 0;
+  }
+  
+  /* Set styling for the navigation bar */
+  nav {
+  background: black;
+  width: 120px;
+  height: 70px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  }
+  
+  /* Set text decoration and color for links inside the sub-header */
+  .sub-head a {
+  text-decoration: none;
+  color: white;
+  }
+  .productcon{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    
+  }
+  /* Set text decoration and color for links inside the sub-section */
+  .sub a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  /* Set hover effects for links inside the sub-header */
+  .sub-head a:hover {
+  text-decoration: underline;
+  color: white;
+  }
+  
+  /* Set hover effects for links inside the sub-section */
+  .sub a:hover {
+  text-decoration: underline;
+  color: white;
+  }
+  
+  /* Set left margin for ul elements inside ul elements in the sub-header */
+  .sub-head ul ul {
+  margin-left: 20px;
+  }
+  
+  /* Set left margin for ul elements inside ul elements in the sub-section */
+  .sub ul ul {
+  margin-left: 20px;
+  }
+
+
+  /* Sets styles for the Contact section */
+#Contact {
+
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 40px;
+  justify-content: flex-end; /* Aligns content to the right */
+  margin-right: 40px; /* Adds margin to the right */
+}
+
+/* Sets styles for the contact information */
+.contact-info {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  margin-right: 40px;
+  justify-content: flex-end; /* Aligns content to the right */
+}
+.contact-info h1{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+/* Sets styles for the contact type */
+.contact-type {
+  margin: 8px;
+  padding: 8px;
+  background-color: #eee;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+/* Sets styles for the h2 header */
+h2 {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+
+
+/* Sets styles for the anchor tag */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Sets styles for the anchor tag on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adds a custom font called 'Great Vibes' */
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('./fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+/* Sets styles for the header section */
+.header {
+  font-size: 30px;
+  font-family: 'Great Vibes', sans-serif;
+  display: flex;
+  text-align: center;
+  width: 500px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center; /* Aligns content to the right */
+  margin-right: 20px; /* Adds margin to the right */
+}
+
+/* Sets styles for the h3 header within the header section */
+.header h3 {
+  color: white;
+}
+
+/* Sets styles for the paragraph within the header section */
+.header p {
+  font-family: 'Great Vibes', sans-serif;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+}
